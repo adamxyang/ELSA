@@ -6,5 +6,7 @@ There are seven waves of data available in the English Longitudinal Study of Age
 
 | Vriable | Name in ELSA | Waves | Description |
 | :---: | :---: | :---: | :---: |
-| executive function | `exe` | 1 2 3 4 5 7 8 | index of executive function (verbal fluency) |
-
+| executive function | `exe` | 1 2 3 4 5 7 | index of executive function (verbal fluency) |
+| memory | `mem` | 1 2 3 4 5 6 7 | index of memory function |
+| orientation | `orient` | 1 2 3 4 5 6 7 | index of orientation function |
+| speed | `speed` | 1 2 3 4 5 | index of processing speed |
