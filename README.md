@@ -21,3 +21,5 @@ The (hypothetical) physical variables are:
 | grip strength | `unknown` | 2 4 6 | grip strength of non-dominant hand (averaged) |
 | gait speed | `unknwon` | 2 4 6 | time taken to walk through a certain distance (averaged) |
 
+
+## Model 1
