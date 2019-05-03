@@ -8,5 +8,5 @@ There are seven waves of data available in the English Longitudinal Study of Age
 | :---: | :---: | :---: | :---: |
 | executive function | `exe` | 1 2 3 4 5 7 | index of executive function (verbal fluency) |
 | memory | `mem` | 1 2 3 4 5 6 7 | index of memory function |
-| orientation | `unkown` | 1 2 3 4 5 6 7 | index of orientation function |
-| speed | `unknwon` | 1 2 3 4 5 | index of processing speed |
+| orientation | `unknown` | 1 2 3 4 5 6 7 | index of orientation function |
+| speed | `unknown` | 1 2 3 4 5 | index of processing speed |
