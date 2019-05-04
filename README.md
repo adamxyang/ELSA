@@ -25,4 +25,4 @@ The (hypothetical) physical variables are:
 ## Model 1
 Due to the construction of the dataset (the physical variables are only available in three waves), the most conservative way of modelling is to only use data from waves 2,4 and 6.
 
-![Alt text](figures/model_1.jpg?raw=true "Model_1")
+!['model_1'](figures/model_1.jpg?raw=true "Model_1")
