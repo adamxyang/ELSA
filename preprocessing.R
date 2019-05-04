@@ -9,10 +9,10 @@ wave_6 = read.csv('directory_to_wave_6',header=T)
 wave_7 = read.csv('directory_to_wave_7',header=T)
 
 # selecting variables
-id_var = c('name_of_id_vars')
-demo_var = c('name_of_demographical_vars')
-hlth_var = c('name_of_health_vars')
-cog_var = c('name_of_cognitive_vars')
+id_var = c('names_of_id_vars')
+demo_var = c('names_of_demographical_vars')
+hlth_var = c('names_of_health_vars')
+cog_var = c('names_of_cognitive_vars')
 
 sel_var = c(id_var,int_var,demo_var, hlth_var,cog_var)
 
