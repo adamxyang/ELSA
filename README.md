@@ -15,11 +15,11 @@ The (hypothetical) cognitive variables are:
 
 The (hypothetical) physical variables are:
 
-| Vriable | Name in ELSA | Waves | Description |
-| :---: | :---: | :---: | :---: |
-| grip strength | `unknown` | 2 4 6 | grip strength of dominant hand (averaged) |
-| grip strength | `unknown` | 2 4 6 | grip strength of non-dominant hand (averaged) |
-| gait speed | `unknown` | 2 4 6 | time taken to walk through a certain distance (averaged) |
+| Vriable | Label | Name in ELSA | Waves | Description |
+| :---: | :---: | :---: | :---: | :---: |
+| grip strength | `grip1` | `unknown` | 2 4 6 | grip strength of dominant hand (averaged) |
+| grip strength | `grip2` | `unknown` | 2 4 6 | grip strength of non-dominant hand (averaged) |
+| gait speed | `gait` | `unknown` | 2 4 6 | time taken to walk through a certain distance (averaged) |
 
 
 ## Model 1
