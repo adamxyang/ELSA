@@ -28,6 +28,8 @@ Due to the construction of the dataset (the physical variables are only availabl
 Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent covariances or correlations.
 ![model_1](figures/model_1.jpg?raw=true "Model_1")
 
+To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `cog_intercept` and `cog_slope` with `phy_intercept` and `phy_slope`.
+
 
 ## Model 2
 
