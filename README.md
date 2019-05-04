@@ -4,7 +4,7 @@ This study aims to investigate longitudinal associations between self-report phy
 
 There are eight waves of data available in the English Longitudinal Study of Ageing (ELSA) dataset, and the first seven waves are suited for this study. We selected executive function, memory function, orientation function and processing speed as measures of the latent cognitive ability. Note that the executive function is missing at wave 6, and the processing speed is missing at waves 6 and 7. Grip strengths of dominant and non-dominant hands and gait speed variables are selected to measure the latent physical ability, which should all be available at waves 2, 4 and 6. Variables that are not yet ready to use are indicated as `unknown`.
 
-The (hypothetical) cognitive variables are:
+The (hypothetical) cognitive variables are: [model_1]
 
 | Vriable | Name in ELSA | Waves | Description |
 | :---: | :---: | :---: | :---: |
