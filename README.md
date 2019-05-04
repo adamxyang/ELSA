@@ -6,12 +6,12 @@ There are eight waves of data available in the English Longitudinal Study of Age
 
 The (hypothetical) cognitive variables are: 
 
-| Vriable | Name in ELSA | Waves | Description |
-| :---: | :---: | :---: | :---: |
-| executive function | `exe` | 1 2 3 4 5 7 | index of executive function (verbal fluency) |
-| memory | `mem` | 1 2 3 4 5 6 7 | index of memory function |
-| orientation | `unknown` | 1 2 3 4 5 6 7 | index of orientation function |
-| processing speed | `unknown` | 1 2 3 4 5 | index of processing speed |
+| Vriable | Label | Name in ELSA | Waves | Description |
+| :---: | :---: | :---: | :---: | :---: |
+| executive function | `exe` | `exe` | 1 2 3 4 5 7 | index of executive function (verbal fluency) |
+| memory | `mem` | `mem` | 1 2 3 4 5 6 7 | index of memory function |
+| orientation | `orient` | `unknown` | 1 2 3 4 5 6 7 | index of orientation function |
+| processing speed | `speed` | `unknown` | 1 2 3 4 5 | index of processing speed |
 
 The (hypothetical) physical variables are:
 
