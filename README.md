@@ -1,6 +1,6 @@
 # English Longitudinal Study of Ageing (ELSA)
 
-This study aims to investigate longitudinal associations between self-report physical activity, grip strength, gait speed and cognition utilising latent physical and cognitive variable constructs. More specifically, whether increased grip strength and gait speed predicts higher cognitive performance and whether there is a reverse causal effect. We designed three novel two-layer models which used structural equation model as the bottom layer to assess latent physical and cognitive constructs, and attached a latent growth model on top to depict longitudinal associations. Different versions of models
+This study aims to investigate longitudinal associations between self-report physical activity, grip strength, gait speed and cognition utilising latent physical and cognitive variable constructs. More specifically, we are interested in whether increasing grip strength and gait speed predict higher cognitive performance or there is a reverse causal effect. We designed three novel two-layer models which used a structural equation model as the bottom layer to assess latent physical and cognitive constructs and attached a latent growth model on top to depict longitudinal associations. Different versions of models
 
 There are eight waves of data available in the English Longitudinal Study of Ageing (ELSA) dataset, and the first seven waves are suited for this study. We selected executive function, memory function, orientation function and processing speed as measures of the latent cognitive ability. Note that the executive function is missing at wave 6, and the processing speed is missing at waves 6 and 7. Grip strengths of dominant and non-dominant hands and gait speed variables are selected to measure the latent physical ability, which should all be available at waves 2, 4 and 6. Variables that are not yet ready to use are indicated as `unknown`.
 
@@ -17,9 +17,9 @@ The (hypothetical) physical variables are:
 
 | Vriable | Name in ELSA | Waves | Description |
 | :---: | :---: | :---: | :---: |
-| grip strength | `unknwon` | 2 4 6 | grip strength of dominant hand (averaged) |
+| grip strength | `unknown` | 2 4 6 | grip strength of dominant hand (averaged) |
 | grip strength | `unknown` | 2 4 6 | grip strength of non-dominant hand (averaged) |
-| gait speed | `unknwon` | 2 4 6 | time taken to walk through a certain distance (averaged) |
+| gait speed | `unknown` | 2 4 6 | time taken to walk through a certain distance (averaged) |
 
 
 ## Model 1
