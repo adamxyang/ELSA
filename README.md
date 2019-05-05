@@ -35,5 +35,6 @@ In this model, we have 15 manifest variables, 10 latent variables, 21 unknown pa
 ## Model 2
 
 
+![model_2](figures/model_2.jpg?raw=true "Model_2")
 
 To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope`.
