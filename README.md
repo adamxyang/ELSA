@@ -29,12 +29,15 @@ Figure below gives a schematic illustration of model 1. Single headed arrows or 
 
 ![model_1](figures/model_1.jpg?raw=true "Model_1")
 
-In this model, we have 15 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculations show that this model is identifiable: n_sample(n_sample+1)-n_unknown = 15*16-10-21-10-12-15 = 172 > 0.
+In this model, we have 21 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculation shows that this model is identifiable: n_sample(n_sample+1)-n_unknown = 21*22-10-21-10-12-15 = 394 > 0.
 
 
 ## Model 2
-
+One downside of model 1 is that we wasted more than half of the cognitive data to cope with the physical variables that are only available in three waves. Since we are mostly interested in the latent growth part at the centre of the model (the intercepts and slopes), we could use more cognitive data to improve the accuracy in estimating the latent growth. Therefore, we proposed a second model that make use of five waves of cognitive data (waves 1 2 3 4 5) as we do not have all cognitive variables available at wave 6. The inductive bias behind this model is that there is no big change on the latent cognitive variable at wave 6, so the latent growth variables computed from the first five waves are reliable indications of the cognition trend.
 
 ![model_2](figures/model_2.jpg?raw=true "Model_2")
+
+In this model, we have 35 manifest variables, 12 latent variables, 37 unknown paths, 12 variances, 12 covariances and 29 residuals. Simple calculation shows that this model is identifiable: n_sample(n_sample+1)-n_unknown = 35*36-12-37-12-12-29 = 1158 > 0.
+
 
 To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope`.
