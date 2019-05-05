@@ -29,7 +29,7 @@ Figure below gives a schematic illustration of model 1. Single headed arrows or 
 
 ![model_1](figures/model_1.jpg?raw=true "Model_1")
 
-In this model, we have 15 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals.
+In this model, we have 15 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculations show that this model is identifiable: n_sample(n_sample+1)-n_unknown = 15*16-10-21-10-12-15 = 172 > 0.
 
 $\frac{n_{sample}(n_{sample}+1)}{2}-n_{unkown}$
 
