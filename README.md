@@ -27,7 +27,6 @@ Due to the construction of the dataset (the physical variables are only availabl
 
 Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent variances and covariances. Manifest (observed) variables are shown in squares and latent variables are shown in ovals.
 
-![model_1](figures/model_1.jpg?raw=true "Model_1")
 
 In this model, we have 15 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculations show that this model is identifiable: n_sample(n_sample+1)-n_unknown = 15*16-10-21-10-12-15 = 172 > 0.
 
