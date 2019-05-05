@@ -25,11 +25,11 @@ The (hypothetical) physical variables are:
 ## Model 1
 Due to the construction of the dataset (the physical variables are only available in three waves), the most conservative way of modelling is to only use data from waves 2,4 and 6. In this case, the only cognitive variables available in all three waves are `mem` and `speed`. At each wave (2,4,6) we used a latent cognitive variable and a latent physical variable as predictors for our manifest variables. Then we stack a latent growth model on top to predict the trends of latent variables. There are also possible other domestic covariates such as age, sex and education. The core part of the model is in the middle, where we try to predict the latent growth of cognitive variables through the latent growth of the physical variables.
 
-Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent variances and covariances. Manifest (observed) variables are shown in squares and latent variables are shown in ovals.
+Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent variances and covariances. Manifest (observed) variables are shown in squares and latent variables are shown in ovals. 
 
 ![model_1](figures/model_1.jpg?raw=true "Model_1")
 
-In this model, we have 21 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculation shows that this model is identifiable: n_sample(n_sample+1)-n_unknown = 21*22-10-21-10-12-15 = 394 > 0.
+In this model, we have 21 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals. Simple calculation shows that this model is identifiable: n_knwon(n_knwon+1)/2-n_unknown = 21*22-10-21-10-12-15 = 163 > 0.
 
 
 ## Model 2
@@ -37,7 +37,10 @@ One downside of model 1 is that we wasted more than half of the cognitive data t
 
 ![model_2](figures/model_2.jpg?raw=true "Model_2")
 
-In this model, we have 35 manifest variables, 12 latent variables, 37 unknown paths, 12 variances, 12 covariances and 29 residuals. Simple calculation shows that this model is identifiable: n_sample(n_sample+1)-n_unknown = 35*36-12-37-12-12-29 = 1158 > 0.
+In this model, we have 35 manifest variables, 12 latent variables, 37 unknown paths, 12 variances, 12 covariances and 29 residuals. Simple calculation shows that this model is identifiable: n_knwon(n_knwon+1)/2-n_unknown = 35*36-12-37-12-12-29 = 528 > 0.
+
+## Model 3
+To exploit all variables available in the dataset, we further add in the two cognitive variables available at wave 6: `mem_w6` and `orient_w6`.
 
 
 To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope`.
