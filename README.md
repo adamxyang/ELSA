@@ -25,10 +25,13 @@ The (hypothetical) physical variables are:
 ## Model 1
 Due to the construction of the dataset (the physical variables are only available in three waves), the most conservative way of modelling is to only use data from waves 2,4 and 6. In this case, the only cognitive variables available in all three waves are `mem` and `speed`. At each wave (2,4,6) we used a latent cognitive variable and a latent physical variable as predictors for our manifest variables. Then we stack a latent growth model on top to predict the trends of latent variables. There are also possible other domestic covariates such as age, sex and education. The core part of the model is in the middle, where we try to predict the latent growth of cognitive variables through the latent growth of the physical variables.
 
-Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent covariances or correlations. Manifest (observed) variables are shown in squares and latent variables are shown in ovals.
+Figure below gives a schematic illustration of model 1. Single headed arrows or ‘paths’ are used to define causal relationships (regressions) in the model, with the variable at the tail (or residual if there is no tail variable) of the arrow causing the variable at the point. Double headed arrows represent variances and covariances. Manifest (observed) variables are shown in squares and latent variables are shown in ovals.
 
 ![model_1](figures/model_1.jpg?raw=true "Model_1")
 
+In this model, we have 15 manifest variables, 10 latent variables, 21 unknown paths (where we set one path equals 1 for every latent variable), 10 variances, 12 covariances and 15 residuals.
+
+$\frac{n_{sample}(n_{sample}+1)}{2}-n_{unkown}$
 
 ## Model 2
 
