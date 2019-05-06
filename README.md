@@ -33,7 +33,7 @@ In this model, we have 21 manifest variables, 10 latent variables, 21 unknown pa
 
 
 ## Model 2
-One downside of model 1 is that we wasted more than half of the cognitive data to cope with the physical variables that are only available in three waves. Since we are mostly interested in the latent growth part at the centre of the model (the intercepts and slopes), we could use more cognitive data to improve the accuracy in estimating the latent growth. Therefore, we proposed a second model that make use of five waves of cognitive data (waves 1 2 3 4 5) as we do not have all cognitive variables available at wave 6. The inductive bias behind this model is that the latent growth trend of cognitive function is mainly captured by the first five waves and we assume there is no big change on the latent cognitive variable at wave 6.
+One downside of model 1 is that we wasted more than half of the cognitive data to cope with the physical variables that are only available in three waves. Since we are mostly interested in the latent growth part at the centre of the model (the intercepts and slopes), we could use more cognitive data to improve the accuracy in estimating the latent growth. Therefore, we proposed a second model that make use of five waves of cognitive data (waves 1,2,3,4,5) as we do not have all cognitive variables available at wave 6. The inductive bias behind this model is that the latent growth trend of cognitive function is mainly captured by the first five waves and we assume there is no big change on the latent cognitive variable at wave 6.
 
 ![model_2](figures/model_2.jpg?raw=true "Model_2")
 
