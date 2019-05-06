@@ -40,7 +40,7 @@ One downside of model 1 is that we wasted more than half of the cognitive data t
 In this model, we have 35 manifest variables, 12 latent variables, 37 unknown paths, 12 variances, 12 covariances and 29 residuals. Simple calculation shows that this model is identifiable: n_known(n_known+1)/2-n_unknown = 35*36/2-12-37-12-12-29 = 528 > 0.
 
 ## Model 3
-To exploit all data available in the dataset, we further add in the two cognitive variables available at wave 6: `mem_w6` and `orient_w6`. The assumption here is that these two variables can capture the correct latent cognitive growth trend to a large extent. If this assumption is true, this model can improve our estimation of the latent cognitive growth than the previous models.
+To exploit all data available in the dataset, we further add in the two cognitive variables available at wave 6: `mem_w6` and `orient_w6`. The assumption here is that these two variables can capture the correct latent cognitive growth trend to a large extent. If this assumption is true, this model can improve our estimation of the latent cognitive growth than the previous models. Moreover, by computing the relationships between the manifest cognitive variables from the first five waves, we can obtain correlations only between these variables and use this to get better estimate of the trend at wave 6 where there are only two available cognitive variables.
 
 ![model_3](figures/model_3.jpg?raw=true "Model_3")
 
