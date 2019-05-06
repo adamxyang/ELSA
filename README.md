@@ -40,11 +40,11 @@ One downside of model 1 is that we wasted more than half of the cognitive data t
 In this model, we have 35 manifest variables, 12 latent variables, 37 unknown paths, 12 variances, 12 covariances and 29 residuals. Simple calculation shows that this model is identifiable: n_known(n_known+1)/2-n_unknown = 35*36/2-12-37-12-12-29 = 528 > 0.
 
 ## Model 3
-To exploit all data available in the dataset, we further add in the two cognitive variables available at wave 6: `mem_w6` and `orient_w6`. 
+To exploit all data available in the dataset, we further add in the two cognitive variables available at wave 6: `mem_w6` and `orient_w6`. The assumption here is that these two variables can capture the correct latent cognitive growth trend to a large extent. If this assumption is true, this model can improve our estimation of the latent cognitive growth than the previous models.
 
 ![model_3](figures/model_3.jpg?raw=true "Model_3")
 
-In this model, we have 37 manifest variables, 13 latent variables, 40 unknown paths, 13 variances, 12 covariances and 31 residuals. Simple calculation shows that this model is identifiable: n_known(n_known+1)/2-n_unknown = 37*38/2-13-40-13-12-31 = 528 > 0.
+In this model, we have 37 manifest variables, 13 latent variables, 40 unknown paths, 13 variances, 12 covariances and 31 residuals. Simple calculation shows that this model is identifiable: n_known(n_known+1)/2-n_unknown = 37*38/2-13-40-13-12-31 = 594 > 0.
 
 
 To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope`.
