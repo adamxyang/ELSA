@@ -47,4 +47,4 @@ To exploit all data available in the dataset, we further add a latent cognitive 
 In this model, we have 37 manifest variables, 13 latent variables, 40 unknown paths, 13 variances, 12 covariances and 31 residuals. Simple calculation shows that this model is identifiable: n_known(n_known+1)/2-n_unknown = 37*38/2-13-40-13-12-31 = 594 > 0.
 
 
-To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope`.
+To study if there is a reverse causal effect, we can simply flip the arrows in the middle and try to predict `phy_intercept` and `phy_slope` using `cog_intercept` and `cog_slope` in all models above.
